@@ -1,0 +1,21 @@
+.defaultBorderColor {
+  border-color: var(--default-color) !important;
+  background-color: black;
+  color: var(--default-color) !important;
+}
+
+.forth-btn {
+  border: none !important;
+  background-color: var(--forth-btn-color) !important;
+  color: white !important;
+}
+
+.ttnc-ButtonForth {
+  background-color: var(--forth-btn-color);
+  color: white;
+}
+
+.forth-btn:hover,
+.ttnc-ButtonForth:hover {
+  filter: brightness(0.8) !important;
+}
